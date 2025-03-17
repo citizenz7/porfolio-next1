@@ -42,7 +42,7 @@ const Navbar = () => {
 
     return (
         <div className="bg-black text-white pt-6">
-            <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[500px]">
+            <div className="hidden md:flex items-center px-4 py-2 mx-auto max-w-[600px]">
                 <ul className="flex flex-row p-4 space-x-8">
                     {navlinks.map((link, index) => (
                         <li key={index}>

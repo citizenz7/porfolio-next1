@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import proj4 from "../assets/proj4.jpg";
+import portfolio from "../assets/portfolio-op.png";
 import pgo from "../assets/pgo.png";
 import citizenz from "../assets/citizenz.png";
 import onf from "../assets/onf.jpg";
@@ -10,41 +10,41 @@ import onf from "../assets/onf.jpg";
 const projects = [
     {
         title: "Blog",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit sequi autem itaque voluptate odit placeat, natus eveniet animi at eos vel nobis necessitatibus perferendis laborum commodi asperiores dignissimos sed.",
+        desc: "Blog Geek & Libre : blog réalisé avec Symfony. Infos, notes, tutos sur le développement web, l&#39;admin système, Gnu/Linux, etc.",
         devStack: "Symfony 6, PHP 8, MariaDB, Bootstrap, Apache, Twig",
         link: "https://www.citizenz.info",
-        git: "https://www.github.com/123456789",
+        git: "https://github.com/citizenz7",
         src: citizenz,
     },
     {
         title: "PengolinCoin cryptomoney",
-        desc: "Crypto website",
-        devStack: "Symfony 6, PHP 8, MariaDB, Bootstrap, Apache, Twig",
-        link: "https://www.citizenz.info",
-        git: "https://www.github.com/123456789",
+        desc: "Site web de la crypto-monnaie BabyPengolincoin fait avec Symfony",
+        devStack: "Symfony 6, PHP 8.1, MariaDB, Bootstrap, Apache, Twig",
+        link: "https://www.babypengolincoin.xyz",
+        git: "https://github.com/citizenz7/babypengolincoin",
         src: pgo,
     },
     {
         title: "PLateform ONF",
-        desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit at ab numquam similique quo, minima soluta, cum repudiandae magnam odio atque inventore nihil cumque perspiciatis dicta qui dolor suscipit reiciendis.",
-        devstack: "PHP 7, MySQL, HTML, JQuery, Bootstrap, Apache, Windows Server, Virtual machine",
-        link: "https://www.citizenz.info",
-        git: "https://www.github.com/123456789",
+        desc: "Dashboard de mouvement des agents à l'ONF de Nevers. Hébergement sur une machine virtuelle Windows server 2016.",
+        devStack: "PHP 7, MySQL, HTML, JQuery, Bootstrap, Apache, Windows Server, Virtual machine",
+        link: "https://www.onf.fr/",
+        git: "#",
         src: onf,
     },
     {
         title: "Portfolio",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cum ipsam est quod ipsa reiciendis maiores sunt dolorum quas quo vel necessitatibus incidunt saepe dolore labore, accusamus, blanditiis officiis quidem?",
-        devstack: "NextJS 15, ReactJS 19, TailwindCSS 4, Vercel, Typescript",
-        link: "https://portfolio.olivierprieur",
-        git: "https://www.github.com/123456789",
-        src: proj4,
+        desc: "Portfolio réalisé avec Symfony 6 et hébergé sur une VPS Hetzner (Apache, MariaDB, PHP 8.3)",
+        devStack: "Symfony 6, PHP 8, MariaDB, Bootstrap, Apache, Twig, VPS",
+        link: "https://www.olivierprieur.fr",
+        git: "https://github.com/citizenz7",
+        src: portfolio,
     }
 ]
 
 const Portfolio = () => {
   return (
-    <div id="portfolio" className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-42">
+    <div id="portfolio" className="text-white bg-gradient-to-b from-black to-[#381a5f] py-10 mt-20 md:mt-32">
 
         <h1 className="text-white text-4xl text-center md:text-5xl max-w-[450px] mx-auto font-semibold my-12 px-6">
             Mes réalisa<span className="text-orange-400">tions</span>

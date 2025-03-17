@@ -53,7 +53,7 @@ const About = () => {
                     <Image src={finance} alt="finance" className="w-auto h-[130px]" />
                     <div className="flex flex-col mt-4">
                         <h2 className="text-2xl font-bold text-white/80">Hard Skills</h2>
-                        <p className="text-lg text-white/70 mt-2">En tant que dévloppeur fullstack, je me spécialise sur Symfony et NextJS, Tailwind et Boostrap, HTML, CSS et PHP</p>
+                        <p className="text-lg text-white/70 mt-2">En tant que développeur fullstack, je me spécialise sur Symfony et NextJS, Tailwind et Boostrap, HTML, CSS, PHP, administration systèmes & serveurs, support utilisateur niveau 1 & 2, gestion de projet, formations techniques,...</p>
                     </div>
                 </div>
             </div>
