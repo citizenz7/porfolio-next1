@@ -27,13 +27,13 @@ const skillIcons = [
 export const Skills = () => {
   return (
     <div className="bg-[linear-gradient(to_top,#000,#381a5f_80%)] py-32">
-      <div className="text-white w-[400px] md:min-w-[950px] mx-auto p-8 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-8">Ma stack <span className="text-orange-400">technique</span></h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="text-white w-[300px] md:min-w-[1200px] mx-auto p-8 text-center">
+        <h2 className="text-2xl md:text-4xl font-bold mb-8">Ma stack <span className="text-orange-400">technique</span></h2>
+        <div className="flex justify-center items-center flex-col gap-5 sm:flex-row md:flex-wrap">
           {skillIcons.map((skill, index) => (
             <div
               key={index}
-              className="h-[140px] w-[140px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl">
+              className="h-[170px] w-[170px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl">
                 {skill.icon}
                 <p className="mt-2">{skill.label}</p>
             </div>

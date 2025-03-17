@@ -7,14 +7,14 @@ export const Contact = () => {
   return (
     <div id="contact" className="max-w-[1000px] mx-auto flex flex-col lg:flex-row text-white/70 p-8 rounded-lg space-y-8 lg:space-y-0 lg:space-x-8">
         <div className="flex justify-center items-center">
-            <ul className="space-y-4 ">
+            <ul className="space-y-4">
                 <li className="flex items-center">
-                    <Image src={phone} alt="phone" className="h-[110px] w-auto mr-6" />
-                    <p className="text-xl">06 30 65 19 52</p>
+                    <Image src={phone} alt="phone" className="h-[60px] w-auto" />
+                    <p className="text-xl ms-2">06 30 65 19 52</p>
                 </li>
                 <li className="flex items-center">
-                    <Image src={mail} alt="mail" className="h-[110px] w-auto mr-6" />
-                    <p className="text-xl">contact@olivierprieur.fr</p>
+                    <Image src={mail} alt="mail" className="h-[60px] w-auto" />
+                    <p className="text-xl ms-2">contact@olivierprieur.fr</p>
                 </li>
             </ul>
         </div>
@@ -28,7 +28,7 @@ export const Contact = () => {
                     <input type="email" name="email" placeholder="E-mail" className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400 w-full" />
                     <input type="text" name="phone" placeholder="Téléphone" className="bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400 w-full" />
                 </div>
-                <textarea name="message" rows={7} placeholder="Votre message" className="bg-black/70 w-full rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400 w-full" />
+                <textarea name="message" rows={7} placeholder="Votre message" className="bg-black/70 w-full rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400" />
                 <button type="submit" className="bg-orange-700 hover:bg-orange-500 text-white px-6 py-2 w-full font-semibold text-xl rounded-xl">Envoyer</button>
             </form>
         </div>
