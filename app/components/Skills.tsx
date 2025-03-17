@@ -33,7 +33,7 @@ export const Skills = () => {
           {skillIcons.map((skill, index) => (
             <div
               key={index}
-              className="h-[160px] w-[160px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl">
+              className="h-[140px] w-[140px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl">
                 {skill.icon}
                 <p className="mt-2">{skill.label}</p>
             </div>
